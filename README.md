@@ -18,7 +18,6 @@ Installs The Following
 - virtualbox
 - VirtualCloneDrive
 - vlc
-- easy.install
 - git
 - intellijidea-ultimate
 - jdk8
