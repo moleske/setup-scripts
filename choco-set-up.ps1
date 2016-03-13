@@ -5,13 +5,13 @@ echo 'Installing Chocolatey'
 iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
 
 echo 'Installing Base'
-cinst 7zip ccleaner CrashPlan keepass launchy notepadplusplus rainmeter sumatrapdf virtualbox VirtualCloneDrive vlc -y
+cinst 7zip ccleaner keepass launchy notepadplusplus rainmeter sumatrapdf virtualbox VirtualCloneDrive vlc -y
 
 echo 'Installing Development Tools'
-cinst easy.install git intellijidea-ultimate jdk8 nodejs poshgit postgresql python2 ruby SQLite -y
+cinst git intellijidea-ultimate jdk8 nodejs poshgit postgresql python2 ruby -y
 
 echo 'extra?'
-#cinst msysgit pip ruby2.devkit upx
+#cinst msysgit pip ruby2.devkit upx CrashPlan SQLite
 
 echo 'Adding Git Aliases co, br, ci, st'
 git config --global alias.co checkout
