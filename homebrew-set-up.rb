@@ -9,10 +9,11 @@ puts 'Installing git-duet...'
 `brew tap git-duet/tap`
 `brew install git-duet`
 
-puts 'Adding git aliases (dci, drv, dmg)...'
+puts 'Adding git aliases dci, drv, dmg, lola'
 `git config --global alias.dci duet-commit`
 `git config --global alias.drv duet-revert`
 `git config --global alias.dmg duet-merge`
+`git config --global alias.lola log --graph --decorate --pretty=oneline --abbrev-commit --all`
 
 puts 'Installing CF CLI'
 `brew tap cloudfoundry/tap`
