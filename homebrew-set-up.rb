@@ -14,6 +14,13 @@ puts 'Adding git aliases (dci, drv, dmg)...'
 `git config --global alias.drv duet-revert`
 `git config --global alias.dmg duet-merge`
 
+puts 'Installing CF CLI'
+`brew tap cloudfoundry/tap`
+`brew install cf-cli`
+
+puts 'Installing rbenv'
+`brew install rbenv`
+
 puts 'Installing Java...'
 `brew cask install java`
 
