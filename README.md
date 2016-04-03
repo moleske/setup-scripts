@@ -19,6 +19,7 @@ Installs The Following
 - VirtualCloneDrive
 - vlc
 - git
+- cf cli
 - intellijidea-ultimate
 - jdk8
 - nodejs
@@ -29,7 +30,7 @@ Installs The Following
 - SQLite
 
 Adds Following Git Aliases
-co, br, ci, st
+co, br, ci, st, lola
 
 ####Mac
 Try [NMahoney's](https://github.com/nmahoney-pivotal/scripts) script for basics
@@ -41,9 +42,10 @@ Installs The Following
 - vim
 - git
 - git-duet
+- cf-cli
 - java
 - intellij-idea
 - node
 
 Adds Following Git Aliases
-dci, drv, dmg
+dci, drv, dmg, lola
