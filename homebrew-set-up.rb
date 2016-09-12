@@ -27,6 +27,7 @@ puts 'Installing Bash it...'
 `git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it`
 `~/.bash_it/install.sh`
 `echo "export BASH_IT_THEME='envy'" >> ~/.bashrc`
+`bash-it enable completion git`
 
 puts 'Installing VIM...'
 `brew install vim`
