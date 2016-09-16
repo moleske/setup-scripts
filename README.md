@@ -5,6 +5,7 @@
 .\choco-set-up.ps1
 ```
 Sets Execution Policy to RemoteSigned
+
 Installs The Following
 - Chocolatey (for installing everything else)
 - 7zip
