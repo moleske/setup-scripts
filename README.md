@@ -34,7 +34,9 @@ co, br, ci, st, lola
 
 ####Mac
 Inspired by [NMahoney's](https://github.com/nmahoney-pivotal/scripts) script for basics
+
 This has all of NMahoney's plus extra for development
+
 **This assumes [Homebrew](http://brew.sh) is installed already**
 ```
 ruby homebrew-set-up.rb
