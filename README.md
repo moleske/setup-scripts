@@ -10,6 +10,7 @@ Installs The Following
 - Chocolatey (for installing everything else)
 - 7zip
 - ccleaner
+- consolez
 - CrashPlan
 - keepass
 - launchy
@@ -68,3 +69,6 @@ Copy them yourself to $HOME you lazy bum (maybe someday I'll do something about 
 
 #### User Initials in Git Info
 Copy `add_user_initials_to_git_info.bash` to `$HOME/.bash_it/custom` you bum (again, maybe someday I'll yadda yadda)
+
+#### ConsoleZ colors
+Copy `console.xml` to `C:\Users\{USERNAME}\AppData\Roaming\Console` or at least the stuff in `<colors></colors>`

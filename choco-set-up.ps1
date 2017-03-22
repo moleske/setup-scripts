@@ -8,7 +8,7 @@ echo 'Installing Base'
 cinst 7zip ccleaner keepass launchy notepadplusplus rainmeter sumatrapdf virtualbox VirtualCloneDrive vlc -y
 
 echo 'Installing Development Tools'
-cinst git cloudfoundry-cli intellijidea-ultimate jdk8 nodejs poshgit postgresql python2 ruby -y
+cinst consolez git cloudfoundry-cli intellijidea-ultimate jdk8 nodejs poshgit postgresql python2 ruby -y
 
 #echo 'extra?'
 #cinst msysgit pip ruby2.devkit upx CrashPlan SQLite
