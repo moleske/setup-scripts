@@ -1,6 +1,6 @@
-#Setup Scripts for Various OSes
+# Setup Scripts for Various OSes
 
-####Windows
+#### Windows
 ```
 .\choco-set-up.ps1
 ```
@@ -33,7 +33,7 @@ Installs The Following
 Adds Following Git Aliases
 co, br, ci, st, lola
 
-####Mac
+#### Mac
 Inspired by [NMahoney's](https://github.com/nmahoney-pivotal/scripts) script for basics
 
 This has all of NMahoney's plus extra for development
@@ -63,8 +63,8 @@ co, br, ci, st, dci, drv, dmg, lola
 
 **Note:**  Disables [Brew Analytics](https://git.io/brew-analytics)
 
-####vimrc & inputrc
+#### vimrc & inputrc
 Copy them yourself to $HOME you lazy bum (maybe someday I'll do something about that)
 
-####User Initials in Git Info
+#### User Initials in Git Info
 Copy `add_user_initials_to_git_info.bash` to `$HOME/.bash_it/custom` you bum (again, maybe someday I'll yadda yadda)
