@@ -66,6 +66,8 @@ co, br, ci, st, dci, drv, dmg, lola
 
 #### vimrc & inputrc
 Copy them yourself to $HOME you lazy bum (maybe someday I'll do something about that)
+Then go here for vim plug https://github.com/junegunn/vim-plug
+And here for colors https://github.com/petelewis/vim-evolution/blob/master/colors/evolution.vim
 
 #### User Initials in Git Info
 Copy `add_user_initials_to_git_info.bash` to `$HOME/.bash_it/custom` you bum (again, maybe someday I'll yadda yadda)
