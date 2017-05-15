@@ -65,7 +65,7 @@ co, br, ci, st, dci, drv, dmg, lola
 **Note:**  Disables [Brew Analytics](https://git.io/brew-analytics)
 
 #### vimrc & inputrc
-Copy them yourself to $HOME you lazy bum (maybe someday I'll do something about that)
+Homebrew script copies them to appropiate $HOME locations (rest of you operating systems are on your own (suckers)) 
 Then go here for vim plug https://github.com/junegunn/vim-plug
 And here for colors https://github.com/petelewis/vim-evolution/blob/master/colors/evolution.vim
 

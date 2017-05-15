@@ -67,3 +67,8 @@ puts 'Installing Intellij...'
 
 puts 'Installing Node...'
 `brew install node`
+
+puts 'Moving Files'
+`mv vimrc ~/.vimrc`
+`mv inputrc ~/.inputrc`
+`mv add_user_initials_to_git_info.bash ~/.bash_it/custom`
