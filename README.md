@@ -11,7 +11,6 @@ Installs The Following
 - 7zip
 - ccleaner
 - consolez
-- CrashPlan
 - keepass
 - launchy
 - notepadplusplus
@@ -29,7 +28,6 @@ Installs The Following
 - postgresql
 - python2
 - ruby
-- SQLite
 
 Adds Following Git Aliases
 co, br, ci, st, lola
