@@ -2,9 +2,6 @@
 puts 'Disable Brew Analytics'
 `brew analytics off`
 
-puts 'Installing Homebrew Cask...'
-`brew install cask`
-
 puts 'Installing tree...'
 `brew install tree`
 
@@ -36,9 +33,9 @@ puts 'Installing VIM...'
 puts 'Installing git...'
 `brew install git`
 
-puts 'Installing git-duet...'
-`brew tap git-duet/tap`
-`brew install git-duet`
+puts 'Installing git-author...'
+`brew install pivotal/tap/git-author`
+puts 'Finish setup by following https://github.com/pivotal/git-author'
 
 puts 'Adding git aliases (co, br, ci, and st)...'
 `git config --global alias.co checkout`
@@ -60,10 +57,7 @@ puts 'Installing rbenv'
 `brew install rbenv`
 
 puts 'Installing Java...'
-`brew cask install java`
-
-puts 'Installing Intellij...'
-`brew cask install intellij-idea`
+`brew cask install adoptopenjdk`
 
 puts 'Installing Node...'
 `brew install node`
